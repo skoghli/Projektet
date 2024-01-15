@@ -1,0 +1,31 @@
+/*Automatgenererade tailwind-funktioner*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*stildelar till hela sidan*/
+main {
+   font-family: var(--font-montserrat);
+}
+main {
+   @apply max-w-6xl my-12 mx-auto px-8 pb-4 bg-gradient-to-r from-fifth to-white rounded-md;
+}
+h1 {
+   font-family: var(--font-salsa);
+}
+h1,
+h2 {
+   @apply font-bold text-primary;
+}
+nav {
+   @apply p-4 text-secondary drop-shadow-sm border-2 flex items-center gap-4;
+}
+nav a:hover {
+   @apply text-primary;
+}
+.huvud_rubrik {
+   @apply mt-5 text-5xl font-extrabold leading-[1.5] text-primary sm:text-6xl;
+}
+.under_rubrik {
+   @apply text-secondary underline text-2xl py-3 text-center;
+}
